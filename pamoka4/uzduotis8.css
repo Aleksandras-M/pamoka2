@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+span {
+    border: 5px solid black;
+    padding: 15px 10px 15px 10px;
+    background-color: pink;
+    display: inline-block;
+}
