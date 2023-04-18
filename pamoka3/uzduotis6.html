@@ -9,14 +9,21 @@
         table, th, td {
             border: 1px solid black;
             border-collapse: collapse;
+            text-align: center;
             }
     </style>
 </head>
 <body>
     <h1>Planets data</h1>
-    <p>Data about the planets of our solar system</p>
     <table>
-        <tr>
+        <caption>
+            Data about the planets of our solar system (Planetary facts taken from <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
+        </caption>
+        <colgroup>
+            <col span="2" style="background-color: rgb(231, 231, 231);">
+            <col style="border:3px solid black; background-color: rgb(231, 231, 231);" >
+        </colgroup>
+        <tr style="background-color: rgb(231, 231, 231);">
             <th colspan="2"></th>
             <th>Name</th>
             <th>Mass (10<sup>24</sup>kg)</th>
@@ -109,7 +116,7 @@
             <td></td>
         </tr>
         <tr>
-            <th rowspan="2"></th>
+            <th rowspan="2">Ice giants</th>
             <th>Uranus</th>
             <td>86.8</td>
             <td>51,118</td>
