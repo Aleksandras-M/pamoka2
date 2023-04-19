@@ -3,10 +3,11 @@
 }
 div {
     border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .half-box {
-    display: inline-block;
     width: 40%;
     height: 150px;
     margin: 4%;
@@ -16,4 +17,20 @@ div {
     width: 90%;
     height: 75px;
     margin-left: 3%;
+}
+
+.bottom-bar{
+    width: 90%;
+    height: 75px;
+    margin-left: 3%;
+}
+
+.half-bar{
+    width: 90%;
+    height: 70px;
+    margin: 1%;
+}
+
+.no-border{
+    border: 0px;
 }
