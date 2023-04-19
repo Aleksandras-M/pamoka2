@@ -1,11 +1,19 @@
 * { 
     box-sizing:border-box;
 }
+div {
+    border: 2px solid black;
+}
 
 .half-box {
     display: inline-block;
     width: 40%;
     height: 150px;
-    border: 2px solid black;
     margin: 4%;
+}
+
+.top-bar{
+    width: 90%;
+    height: 75px;
+    margin-left: 3%;
 }
