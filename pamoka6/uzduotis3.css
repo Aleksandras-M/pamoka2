@@ -1,0 +1,15 @@
+* { box-sizing:border-box;}
+
+.container{
+    display: flex;
+    border: 1px solid blue;
+    width: 400px;
+    align-items: stretch;
+    justify-content: space-around;
+}
+.box{
+    background-color: rgb(173, 185, 209);
+    padding: 10px;
+    border-radius: 5px;
+    flex-basis: 33%;
+}
