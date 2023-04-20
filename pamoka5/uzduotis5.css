@@ -1,0 +1,55 @@
+* { 
+    box-sizing:border-box;
+}
+
+div {
+    border: 2px solid black;
+    display: inline-block;
+    margin: 1%;
+}
+
+.big-box{
+    height: 250px;
+    width: 95%
+}
+
+.box {
+    height: 220px;
+    margin: 2%;
+    width: 45%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.nav-bar{
+    height: 35px;
+    margin: 1%;
+    width: 88%;
+}
+
+.inside-bar {
+    height: 27%;
+    width: 90%;
+}
+
+.no-border{
+    border: 0px;
+}
+
+.w45 {
+    width: 45%;
+}
+
+.smaller-bar {
+    height: 90%;
+    width: 46%;
+    margin-top:1%
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w65 {
+    width: 65%;
+}
