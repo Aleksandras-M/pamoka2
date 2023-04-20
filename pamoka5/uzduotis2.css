@@ -5,13 +5,16 @@
 div {
     border: 2px solid black;
     display: inline-block;
-    vertical-align: top;
-    margin: auto;
 }
 
 .box {
     height: 160px;
     margin: 2%;
-    text-align: center;
     width: 40%;
+}
+
+.nav-bar{
+    height: 35px;
+    margin: 1%;
+    width: 88%;
 }

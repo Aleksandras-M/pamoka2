@@ -1,0 +1,30 @@
+* { 
+    box-sizing:border-box;
+}
+
+div {
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.box {
+    height: 160px;
+    margin: 2%;
+    width: 40%;
+    vertical-align: top;
+}
+
+.nav-bar{
+    height: 35px;
+    margin: 1%;
+    width: 88%;
+}
+
+.inside-bar {
+    height: 48%;
+    width: 98%;
+}
+
+.no-border{
+    border: 0px;
+}
