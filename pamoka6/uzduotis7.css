@@ -1,0 +1,45 @@
+* { box-sizing:border-box;}
+
+.container{
+    display: flex;
+    border:3px solid orange;
+    padding: 4%;
+    align-items: stretch;  
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+
+.container2{
+    display: flex;
+    border:3px solid blue;
+    padding: 3%;
+    align-items: stretch;
+    height: 70%;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    height: 70%
+}
+
+.grow1{
+    flex-grow: 1;
+}
+
+.grow9{
+    flex-grow: 9;
+}
+
+.end{
+    flex-flow: row-reverse;
+}
+
+.text-right{
+    text-align: right;
+}
