@@ -1,0 +1,39 @@
+*{ box-sizing:border-box;}
+
+.main{
+    display: flex;
+    height:400px;
+}
+
+.container{
+    display: flex;
+}
+
+.box{
+    padding: 10px;
+}
+
+.grow1{
+    flex-grow: 1;
+}
+
+.grow5{
+    flex-grow: 5;
+}
+.column{
+    flex-direction: column;
+}
+.h100 {
+    height: 100%;
+}
+.green {
+    background-color: green;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+}
+
+.beige {
+    background-color: beige;
+}
