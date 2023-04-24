@@ -3,10 +3,8 @@
 .container{
     display: flex;
     border: 1px solid blue;
-    height: 50px;
-    width: 500px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .button{
     background-color: rgb(173, 185, 209);
