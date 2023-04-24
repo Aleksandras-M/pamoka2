@@ -23,9 +23,7 @@
 .column{
     flex-direction: column;
 }
-.h100 {
-    height: 100%;
-}
+
 .green {
     background-color: green;
 }
