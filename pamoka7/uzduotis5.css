@@ -1,8 +1,5 @@
-/* *{ box-sizing:border-box;} */
-
 .menu > ul {
     display: flex;
-    /* border: 1px solid blue; */
     align-items: center;
     justify-content: space-evenly;
     text-decoration: none;
