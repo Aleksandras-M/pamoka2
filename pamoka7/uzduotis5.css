@@ -1,0 +1,28 @@
+/* *{ box-sizing:border-box;} */
+
+.menu > ul {
+    display: flex;
+    /* border: 1px solid blue; */
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu li{
+    
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.menu a{
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.menu a:hover{
+    background-color: green;
+}
