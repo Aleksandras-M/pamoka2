@@ -1,7 +1,7 @@
 .menu > ul {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-decoration: none;
     list-style-type: none;
 }
@@ -13,7 +13,7 @@
 }
 
 .menu a{
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 4rem 1rem 4rem;
     background-color: black;
     color: white;
     text-decoration: none;
