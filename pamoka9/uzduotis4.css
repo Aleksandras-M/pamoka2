@@ -1,0 +1,18 @@
+.breakpoint{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.breakpoint > div {
+    border: 1px solid black;
+    height: 100px;
+    width: 30%;
+}
+
+@media screen and (max-width:768px){
+    .breakpoint > div{
+        width: 99%;
+    }
+}
