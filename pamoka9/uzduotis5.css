@@ -1,0 +1,74 @@
+.breakpoint{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.breakpoint > div {
+    width: 100%;
+}
+
+div > img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+@media screen and (max-width:992px) {
+    p {
+        font-size: 16px;
+    }
+    body {
+        background-color: rgb(218, 150, 63);
+    }
+    .breakpoint > div {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:993px) {
+
+    body {
+        background-color: rgb(173, 228, 122);
+    }
+
+    .breakpoint > div {
+        width: 30%;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    body {
+        margin: auto;
+        width:50%;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    body {
+        margin: auto;
+        width:70%;
+    }
+    h1, h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    .breakpoint >div {
+        width: 100%;
+    }
+
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+
+
