@@ -1,13 +1,12 @@
 window.onload = function() {
     
-    let x = -47
+    let x = -47;
 
-    let y = 25 + x
-    console.log("Kai x yra " + x + " o y yra " + y) 
-    console.log("suma yra " + (x + y))
-    console.log("suma yra " + suma(x, y))
-}
+    let y = 25 + x;
 
-function suma(a, b) {
-    return a + b
+    let suma = x + y;
+
+    console.log("Kai x yra " + x + " o y yra " + y);
+    console.log("suma yra " + (x + y));
+    console.log("suma yra " + suma);
 }
