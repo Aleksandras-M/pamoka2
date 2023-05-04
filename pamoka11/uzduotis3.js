@@ -9,7 +9,7 @@ window.onload = function() {
     let sk1 = 50;
     let sk2 = 20;
 
-    console.log(trigubaSuma(sk1, sk2))
+    console.log(trigubaSuma(sk1, sk2));
 }   
 
 function trigubaSuma(a, b) {
