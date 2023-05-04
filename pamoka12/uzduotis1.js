@@ -22,9 +22,9 @@ window.onload = function () {
 
     atskirimas();
     let h = 5;
-    console.log(apkeistiZenkla(h))
+    console.log(apkeistiZenkla(h));
     let i = -144
-    console.log(apkeistiZenkla(i))
+    console.log(apkeistiZenkla(i));
 
 }
 
