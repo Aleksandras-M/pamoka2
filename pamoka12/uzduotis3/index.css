@@ -1,0 +1,15 @@
+div {
+    display: flex;
+}
+
+.button {
+    background-color: grey;
+    border-radius: 3px;
+    padding: 5px;
+    width: 20%;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 5px;
+}
