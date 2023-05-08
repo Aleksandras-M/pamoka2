@@ -5,7 +5,7 @@ window.onload = function(){
     let x2 = +prompt("Įveskite antrojo taško x koordinatę");
     let y2 = +prompt("Įveskite antrojo taško y koordinatę");
 
-    alert(atstumas(x1, y1, x2, y2));
+    alert("Atstumas tarp pirmojo taško {" + x1 + ", " + y1 + "} ir antrojo taško {" + x2 + ", " + y2 + "} yra " + atstumas(x1, y1, x2, y2));
 }
 
 function atstumas (x1, y1, x2, y2){

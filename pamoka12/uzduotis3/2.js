@@ -4,7 +4,7 @@ window.onload = function() {
     let plotis = prompt("įveskite plotį");
     let aukstis = prompt("įveskite aukštį");
 
-    console.log(plotas(ilgis, plotis, aukstis));
+    alert("Stačiakampio gretasienio, kurio ilgis yra " + ilgis + ", plotis " + plotis + " o aukštis " + aukstis + " paviršiaus plotas yra: " + plotas(ilgis, plotis, aukstis));
 }
 
 function plotas(a, b,c){

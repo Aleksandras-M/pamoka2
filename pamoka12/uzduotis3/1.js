@@ -2,7 +2,7 @@ window.onload = function() {
 
     let ilgis = prompt("įveskite stačiakampio ilgį:");
     let plotis = prompt("įveskite stačiakampio plotį");
-    console.log(perimetras(ilgis, plotis));
+    alert("Stačiakampio kurio ilgis yra " + ilgis + " o plotis " + plotis + " perimetras yra: " + perimetras(ilgis, plotis));
 }
 
 function perimetras (x, y) {

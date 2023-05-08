@@ -1,8 +1,8 @@
 window.onload = function() {
 
-    let krastineA = prompt("Įveskite pirmą kraštinę");
-    let krastineB = prompt("Įveskite antrą kraštinę");
-    console.log(izambine(krastineA, krastineB));
+    let krastine1 = prompt("Įveskite pirmą kraštinę");
+    let krastine2 = prompt("Įveskite antrą kraštinę");
+    alert("Trikampio kurio kraštinių ilgiai yra " + krastine1 + " ir " + krastine2 + " įžambinės ilgis yra " + izambine(krastine1, krastine2));
 }
 
 function izambine (x, y) {

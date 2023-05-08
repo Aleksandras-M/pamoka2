@@ -1,7 +1,7 @@
 window.onload = function() {
 
     let r = prompt("Įveskite apskritimo spindulį");
-    console.log(plotas(r));
+    alert("Apskritimo su spinduliu " + r + " plotas yra " + plotas(r));
 
 }
 
