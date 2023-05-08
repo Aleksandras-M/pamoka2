@@ -1,6 +1,6 @@
 window.onload = function() {
 
-    let x = prompt("Įveskite skaičių");
+    let x = +prompt("Įveskite skaičių");
     
     if (x == 0) {
         alert("Įvedėte nulį");
