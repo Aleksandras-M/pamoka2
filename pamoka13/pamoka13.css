@@ -1,0 +1,17 @@
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: rgb(191, 216, 168);
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    min-width:20%;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 0.5rem;
+}
