@@ -5,8 +5,8 @@ window.onload = function () {
 
     atskirimas();
 
-    let c = prompt("įveskite pirmą skaičių");
-    let d = prompt("įveskite antrą skaičių");
+    let c = +prompt("įveskite pirmą skaičių");
+    let d = +prompt("įveskite antrą skaičių");
     console.log(antraLygtis(c, d));
 
     atskirimas();

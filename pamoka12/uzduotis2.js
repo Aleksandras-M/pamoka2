@@ -1,8 +1,8 @@
 window.onload = function () {
 
-    let sk1 = prompt("įveskite 1-ą skaičių");
-    let sk2 = prompt("įveskite 2-ą skaičių");
-    let sk3 = prompt("įveskite 3-ą skaičių");
+    let sk1 = +prompt("įveskite 1-ą skaičių");
+    let sk2 = +prompt("įveskite 2-ą skaičių");
+    let sk3 = +prompt("įveskite 3-ą skaičių");
     alert(naujaZinute(sk1, sk2, sk3));
 
     atskirimas();

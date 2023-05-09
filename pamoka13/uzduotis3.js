@@ -3,12 +3,16 @@ window.onload = function () {
     let x = +prompt("Įveskite pirmąjį skaičių");
     let y = +prompt("Įveskite antrąjį skaičių");
 
+    alert(daugiauMaziau(x, y));
+}
+
+function daugiauMaziau(x, y){
     if (x > y) {
-        alert("-1");
+        return "-1";
     } else if (x < y) { 
-        alert("1");
+        return "1";
     }
     else {
-        alert("0");
+        return "0";
     }
 }

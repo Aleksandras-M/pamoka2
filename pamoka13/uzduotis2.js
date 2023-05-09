@@ -2,13 +2,17 @@ window.onload = function() {
 
     let x = +prompt("Įveskite skaičių");
     
+    alert(lyginisNelyginis(x));
+
+}
+
+function lyginisNelyginis(x) {
     if (x == 0) {
-        alert("Įvedėte nulį");
+        return "Įvedėte nulį";
     } else if (x % 2 == 0) {
-        alert("Skaičius yra lyginis");
+        return "Skaičius yra lyginis";
     }
     else {
-        alert("Skaičius yra nelyginis");
+        return "Skaičius yra nelyginis";
     }
-
 }
