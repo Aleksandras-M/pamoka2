@@ -3,15 +3,26 @@ window.onload = function() {
     let x = +prompt("Įveskite pirmą skaičių");
     let y = +prompt("Įveskite antrą skaičių")
 
-    didesnisMazesnisVienodi(x, y);
+    didesnisMazesnisVienodiIsvedimas(x, y);
 
 }
 
 function didesnisMazesnisVienodi(x, y) {
-
     if (x == y) {
-        alert("įvesti skaičiai yra lygus");
+        return 0;
     } else if (x < y){
+        return 1;
+    }
+    else {
+        return -1;
+    }
+}
+
+function didesnisMazesnisVienodiIsvedimas(x, y) {
+
+    if (didesnisMazesnisVienodi(x, y) == 0) {
+        alert("įvesti skaičiai yra lygus");
+    } else if (didesnisMazesnisVienodi(x, y) == 1){
         alert("Antras įvestas skaičius didesnis už pirmą įvestą skaičių");
     }
     else {
