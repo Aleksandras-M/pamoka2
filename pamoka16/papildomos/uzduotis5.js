@@ -12,13 +12,13 @@ function fibonnaciSkaicius(n){
       } else {
         let x = 0;
         let y = 1;
-        let skaicius;
+        let sekantisSkaicius = 0;
         for (let i = 3; i <= n; i++) {
-          skaicius = x + y;
+        sekantisSkaicius = x + y;
           x = y;
-          y = skaicius;
+          y = sekantisSkaicius;
         }
-        return skaicius;
+        return sekantisSkaicius;
     }
 
 }
