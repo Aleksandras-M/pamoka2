@@ -7,7 +7,7 @@ window.onload = function() {
 }
 
 function rastiSkaiciu(a, b, c) {
-    for(i = a; i < b; i += c){
+    for(let i = a; i < b; i += c){
         console.log(i);
     }
 }

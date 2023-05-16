@@ -8,7 +8,7 @@ window.onload = function() {
 
 function rastiSkaiciuSuma(a, b, c) {
     let suma = 0
-    for(i = a; i < b; i += c){
+    for(let i = a; i < b; i += c){
         suma += i;
     }
     console.log(suma);
