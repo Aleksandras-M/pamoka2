@@ -4,7 +4,6 @@ window.onload = function() {
     let pabaiga = +prompt(`Įveskite intervalo pabaigą`);
     
     teisingasSumosAtsakymas(pradzia, pabaiga)
-    // console.log(atsitiktinisSveikasSkaicius(pradzia, pabaiga))
     
 }
 
@@ -14,10 +13,10 @@ function atsitiktinisSveikasSkaicius(pradzia, pabaiga) {
 }
 
 function teisingasSumosAtsakymas(x, y){
+
     let a = atsitiktinisSveikasSkaicius(x, y);
     let b = atsitiktinisSveikasSkaicius(x, y);
     let c = a + b
-
     let ivestis = +prompt(`Įveskite skaičių ${a} ir ${b} sumą`)
     
     while(c != ivestis){
