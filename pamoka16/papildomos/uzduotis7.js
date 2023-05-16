@@ -20,6 +20,7 @@ function teisingasSumosAtsakymas(x, y){
     let ivestis = +prompt(`Įveskite skaičių ${a} ir ${b} sumą`)
     
     while(c != ivestis){
-        ivestis = +prompt(`Įveskite skaičių ${a} ir ${b} sumą`)
+        ivestis = +prompt(`%ved4te neteisingą ${a} ir ${b} sumą. Bandykite iš naujo`)
     }
+    alert(`Teisingai. ${a} ir ${b} sumą yra ${a + b}`)
 }
