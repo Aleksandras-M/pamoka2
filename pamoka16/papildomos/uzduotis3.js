@@ -7,11 +7,10 @@ window.onload = function() {
 function suma(x){
     let suma = 0;
     
-
     while(x >= 0){
         suma += x;
         x = +prompt(`Įveskite skaičių kurį norite pridėti`);
     }
-    return suma;
 
+    return suma;
 }
