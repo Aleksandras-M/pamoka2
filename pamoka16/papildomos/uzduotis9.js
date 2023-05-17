@@ -1,8 +1,8 @@
 window.onload = function() {
 
     let z = prompt(`Įveskite tekstą`)
-    // console.log(atvirkstinisTekstas(z));
-    console.log(`${z} yra palindromas: ${z == atvirkstinisTekstas(z)}`)
+    console.log(atvirkstinisTekstas(z));
+    console.log(`${z} yra palindromas: ${z.toLocaleLowerCase() == atvirkstinisTekstas(z).toLocaleLowerCase()}`)
 }
 
 function atvirkstinisTekstas(z) {
