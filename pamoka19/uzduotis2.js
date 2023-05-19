@@ -12,8 +12,8 @@ window.onload = function () {
 
     console.log(`Trikampio plotas didesnis už perimetrą: ${arPlotasDidesnisUzPerimetra(trikampis1)}`);
 
-    console.log(trikampis1);
-    console.log(trikampis2);
+    // console.log(trikampis1);
+    // console.log(trikampis2);
     console.log(`pirmo trikampio plotas yra didesnis, grąžina -1, jeigu jie lygūs, grąžina 0, jeigu antro didesnis, grąžina 1\n${trikampioPlotuPalyginimas(trikampis1, trikampis2)}`);
 
     

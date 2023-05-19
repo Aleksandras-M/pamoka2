@@ -1,7 +1,14 @@
 window.onload = function() {
 
     let n = +prompt(`Įveskite sekos skaičiaus numerį`);
+    console.time('fibonnaciSkaicius');
     console.log(fibonnaciSkaicius(n));
+    console.timeEnd('fibonnaciSkaicius');
+
+    const masyvas = [0, 1];
+    console.time('fibonnaciMasyvas');
+    console.log(fibonnaciMasyvas(masyvas, n));
+    console.timeEnd('fibonnaciMasyvas');
 }
 
 function fibonnaciSkaicius(n){
@@ -21,4 +28,17 @@ function fibonnaciSkaicius(n){
         return sekantisSkaicius;
     }
 
+}
+
+function fibonnaciMasyvas(masyvas, x){
+  if (x === 1){
+    return masyvas[0];
+  }else if(x === 2){
+    return masyvas[1]
+  }else {
+    for (let i = 2; i <= x; i++) {
+      masyvas.push(masyvas[i - 1] + masyvas[i - 2]);
+    }
+    return masyvas[x - 1];
+}
 }
