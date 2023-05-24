@@ -44,7 +44,7 @@ window.onload = function () {
 function suskaiciuotiRaides(tekstas, raide) {
     let count = 0;
     for (let i = 0; i < tekstas.length; i++) {
-        tekstas[i].toLocaleLowerCase() === raide.toLocaleLowerCase() ? count += 1 : count += 0;
+        tekstas[i].toLocaleLowerCase() === raide.toLocaleLowerCase() ? count += 1 : count += 0 ;
     }
     return count;
 }

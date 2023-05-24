@@ -33,13 +33,14 @@ function arPlotasDidesnisUzPerimetra(trikampis){
 }
 
 function trikampioPlotuPalyginimas(trikampis1, trikampis2){
-    if (trikampis1.plotas > trikampis2.plotas){
-        return "-1";
-    } else if(trikampis1.plotas == trikampis2.plotas){
-        return "0"
-    } else {
-        return "1"
-    }
+    // if (trikampis1.plotas > trikampis2.plotas){
+    //     return "-1";
+    // } else if(trikampis1.plotas == trikampis2.plotas){
+    //     return "0"
+    // } else {
+    //     return "1"
+    // }
+    (trikampis1.plotas > trikampis2.plotas) ? "-1" : trikampis1.plotas == trikampis2.plotas ? "0" : "1"
 }
 
 function trikampioPerimetras(trikampis){
