@@ -40,7 +40,7 @@ function trikampioPlotuPalyginimas(trikampis1, trikampis2){
     // } else {
     //     return "1"
     // }
-    (trikampis1.plotas > trikampis2.plotas) ? "-1" : trikampis1.plotas == trikampis2.plotas ? "0" : "1"
+    return trikampis1.plotas > trikampis2.plotas ? "-1" : trikampis1.plotas == trikampis2.plotas ? "0" : "1"
 }
 
 function trikampioPerimetras(trikampis){
