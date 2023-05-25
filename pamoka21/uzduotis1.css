@@ -1,0 +1,20 @@
+.ivedimoLaukai {
+    display: flex;
+    padding: 0.5em;
+    width: 30%;
+    min-height:30px;
+
+}
+
+.mygtukai {
+    display: block;
+    padding: 0.5em;
+    width: 30%;
+    justify-self: center;
+    
+}
+
+.mygtukai > button {
+    padding: 0.5em;
+    background-color:rgb(192, 191, 188);
+}
