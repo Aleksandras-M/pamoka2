@@ -31,7 +31,7 @@ window.onload = function(){
         let y = antrasSkaiciusIvedimas.valueAsNumber;
         let daugyba = x * y;
         // alert(`${x} * ${y} yra ${daugyba}`);
-        tekstas.innerHTML = `${x} + ${y} yra ${suma}`;
+        tekstas.innerHTML = `${x} + ${y} yra ${daugyba}`;
     }
 
     mygtukas4.onclick = function() {
