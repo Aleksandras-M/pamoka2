@@ -8,7 +8,7 @@ public class uzduotis2 {
         System.out.println(bool1);
         String tekstas1 = "Labas rytas";
         System.out.println(tekstas1);
-        double d1 = 2548951;
+        double d1 = 2548951d;
         System.out.println(d1);
         short s2 = 5688;
         int i1 = (int) s2;
