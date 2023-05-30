@@ -5,13 +5,10 @@ public class uzduotis6 {
         arKeliamieji(1500);
         arKeliamieji(1600);
     }
-    
-    public static void arKeliamieji(int x){
-        if(x >= 1582){
+
+    public static void arKeliamieji(int x) {
+        if (x >= 1582) {
             System.out.println("arKeliamieji (" + x + ") = " + (x % 4 == 0));
         }
-    }
-    public static void atskirimas() {
-        System.out.println("----------------");
     }
 }
