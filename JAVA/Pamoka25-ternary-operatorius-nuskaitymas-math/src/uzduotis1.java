@@ -10,9 +10,9 @@ public class uzduotis1 {
 
 
         System.out.println("Su įvestu apskritimo spinduliu " + r + ": ");
-        System.out.println("apskritimo plotas yra " + apskritimoPlotas(r));
-        System.out.println("apskritimo diametras yra " + apskritimoDiametras(r));
-        System.out.println("apskritimo ilgis yra " + apskritimoIlgis(r));
+        System.out.println("apskritimo plotas yra " + suapvalinti(apskritimoPlotas(r)));
+        System.out.println("apskritimo diametras yra " + suapvalinti(apskritimoDiametras(r)));
+        System.out.println("apskritimo ilgis yra " + suapvalinti(apskritimoIlgis(r)));
 
     }
 
@@ -40,6 +40,10 @@ public class uzduotis1 {
 
     public static double apskritimoIlgis(double r) {
         return 2 * Math.PI * r;
+    }
+
+    public static double suapvalinti(double x){
+        return Math.round(x * 100d) / 100d;
     }
 }
 

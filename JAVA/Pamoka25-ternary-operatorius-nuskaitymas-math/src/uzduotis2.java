@@ -7,8 +7,8 @@ public class uzduotis2 {
         double ilgis = ivedimoTikrinimas(ivedimas);
         System.out.println("Įveskite stačiakampio plotį:");
         double plotis = ivedimoTikrinimas(ivedimas);
-        System.out.println("Stačiakampio plotas yra " + staciakampioPlotas(ilgis, plotis));
-        System.out.println("Stačiakampio perimetras yra " + staciakampioPerimetras(ilgis, plotis));
+        System.out.println("Stačiakampio plotas yra " + suapvalinti(staciakampioPlotas(ilgis, plotis)));
+        System.out.println("Stačiakampio perimetras yra " + suapvalinti(staciakampioPerimetras(ilgis, plotis)));
         System.out.println(plotasArPerimetrasDidesnis(staciakampioPlotas(ilgis, plotis), staciakampioPerimetras(ilgis, plotis)));
 
 
@@ -47,5 +47,9 @@ public class uzduotis2 {
                 return "Stačiakampio perimetras yra didesnis už plotą";
             }
         }
+    }
+
+    public static double suapvalinti(double x){
+        return Math.round(x * 100d) / 100d;
     }
 }

@@ -21,8 +21,8 @@ public class uzduotis3 {
         double k3 = ivedimoTikrinimas(ivedimas);
 
         if (arSusidaroTrikampis(k1, k2, k3) == true){
-            System.out.println("Trikampio perimetras yra " + trikampioPerimetras(k1, k2, k3));
-            System.out.println("Trikampio plotas yra " + trikampioPlotasHeronoFormule(k1, k2, k3));
+            System.out.println("Trikampio perimetras yra " + suapvalinti(trikampioPerimetras(k1, k2, k3)));
+            System.out.println("Trikampio plotas yra " + suapvalinti(trikampioPlotasHeronoFormule(k1, k2, k3)));
             System.out.println(trikampioTipas(k1, k2, k3));
         }else {
             System.out.println("Su įvestomis kraštinėmis trikampio sudaryti negalima");
@@ -67,5 +67,9 @@ public class uzduotis3 {
         } else {
             return "Trikampis yra paprastas";
         }
+    }
+
+    public static double suapvalinti(double x){
+        return Math.round(x * 100d) / 100d;
     }
 }
