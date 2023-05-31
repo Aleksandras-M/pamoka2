@@ -30,7 +30,7 @@ public class uzduotis4 {
         if (procentas == 0) {
             return skaicius;
         } else {
-            return skaicius + (skaicius * (procentas / 100));
+            return (skaicius * (procentas / 100));
         }
     }
 }
