@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.stream.DoubleStream;
 
 public class uzduotis1 {
     public static void main(String[] args) {
@@ -16,6 +17,7 @@ public class uzduotis1 {
         double[] y3 = {32.4, 14.9, 7.6, 43.2, 25.3, 19.8, 38.1, 2.7, 46.5, 9.2};
         System.out.println("masyvoElementuSumaSuFor(y3) = " + suapvalinti(masyvoElementuSumaSuFor(y3)));
         System.out.println("masyvoElementuSumaSuWhile(y3) = " + suapvalinti(masyvoElementuSumaSuWhile(y3)));
+        System.out.println("suapvalinti(masyvoElementuSumaSuStream(y3)) = " + suapvalinti(masyvoElementuSumaSuStream(y3)));
 
         int[] masyvasSuNeigimais = {-12, 38, 5, -45, 28, 9, -34, 16, 47, -22, 41, -2, -17, 30, -41, -6, 19, 33, 0, -29};
         System.out.println("neigiamuElementuKeitimasITeigiamusMasyve(masyvasSuNeigimais) = " +
@@ -86,6 +88,10 @@ public class uzduotis1 {
             index++;
         }
         return suma;
+    }
+
+    public static double masyvoElementuSumaSuStream(double[] a){
+        return DoubleStream.of(a).sum();
     }
 
     public static boolean arSkaiciusNeigiamas(int x){
