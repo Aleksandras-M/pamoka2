@@ -9,6 +9,8 @@ window.onload = function() {
     console.time('fibonnaciMasyvas');
     console.log(fibonnaciMasyvas(masyvas, n));
     console.timeEnd('fibonnaciMasyvas');
+
+    console.log(fibonaciRekursija(n));
 }
 
 function fibonnaciSkaicius(n){
@@ -29,6 +31,17 @@ function fibonnaciSkaicius(n){
     }
 
 }
+
+function fibonaciRekursija (n){
+  if (n === 1) {
+        return 0;
+      } else if (n === 2) {
+        return 1;
+      } else {
+        return fibonaciRekursija(n - 1) + fibonaciRekursija(n - 2);
+      }
+}
+
 
 function fibonnaciMasyvas(masyvas, x){
   if (x === 1){
