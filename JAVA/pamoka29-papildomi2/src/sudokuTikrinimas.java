@@ -34,7 +34,7 @@ public class sudokuTikrinimas {
 ////        System.out.println("kvadratoTikrinimas(sudokuBlogas) = " + kvadratoTikrinimas(sudokuBlogas));
 //        System.out.println("visuSudokuKvadratuTikrinimas(sudokuTeisignas) = " + visuSudokuKvadratuTikrinimas(sudokuTeisignas));
 //        System.out.println("visuSudokuKvadratuTikrinimas(sudokuBlogas) = " + visuSudokuKvadratuTikrinimas(sudokuBlogas));
-        
+
         arSudokuIssprestasTeisingai(sudokuTeisignas);
         arSudokuIssprestasTeisingai(sudokuBlogas);
     }
