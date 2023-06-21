@@ -20,6 +20,8 @@ public class PagrindinePrograma {
         System.out.println("a2.ilgis() = " + a2.ilgis());
         System.out.println("a1.plotas() = " + a1.plotas());
         System.out.println("a2.plotas() = " + a2.plotas());
+
+
     }
 
 }
