@@ -66,5 +66,11 @@ public class Preke {
         return norimasKiekis <= this.kiekis;
     }
 
-    
+    public int kainosPalyginimas(double kaina){
+        return Double.compare(this.kaina, kaina);
+    }
+
+    public boolean arVienodosKategorijos(String s){
+        return this.kategorija.equalsIgnoreCase(s.toLowerCase());
+    }
 }
