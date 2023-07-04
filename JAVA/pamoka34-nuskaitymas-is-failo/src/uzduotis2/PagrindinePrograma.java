@@ -2,8 +2,6 @@ package uzduotis2;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class PagrindinePrograma {
@@ -26,22 +24,14 @@ public class PagrindinePrograma {
             nuskaitymas.nextLine();
             for (int i = 0; i < n; i++) {
                 String[] atskirtaFailoEilute = nuskaitymas.nextLine().split(",");
-                int id = Integer.parseInt(atskirtaFailoEilute[0]);
-                String pavadinimas = atskirtaFailoEilute[1];
-                double ivertinimas = Double.parseDouble(atskirtaFailoEilute[2]);
-                String zanras = atskirtaFailoEilute[3];
-                int trukme = Integer.parseInt(atskirtaFailoEilute[4]);
-                int isleidimoMetai = Integer.parseInt(atskirtaFailoEilute[5]);
-                double kaina = Double.parseDouble(atskirtaFailoEilute[6]);
-
                 filmai[i] = new Filmas(
-                        id,
-                        pavadinimas,
-                        ivertinimas,
-                        zanras,
-                        trukme,
-                        isleidimoMetai,
-                        kaina);
+                        Integer.parseInt(atskirtaFailoEilute[0]),
+                        atskirtaFailoEilute[1],
+                        Double.parseDouble(atskirtaFailoEilute[2]),
+                        atskirtaFailoEilute[3],
+                        Integer.parseInt(atskirtaFailoEilute[4]),
+                        Integer.parseInt(atskirtaFailoEilute[5]),
+                        Double.parseDouble(atskirtaFailoEilute[6]));
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
@@ -80,18 +70,17 @@ public class PagrindinePrograma {
     public static void uzsakytiFilmai(Filmas[] filmai) {
         Scanner ivedimas = new Scanner(System.in);
         double suma = 0;
-        String uzsakytiFilmai = "";
+        StringBuilder uzsakytiFilmai = new StringBuilder();
         System.out.println("Įveskite filmo Id (įveskite 'stop' norėdami baigti):");
         while (ivedimas.hasNext()) {
             if (ivedimas.hasNextInt()) {
                 System.out.println("Įveskite filmo Id (įveskite 'stop' norėdami baigti):");
                 int n = ivedimas.nextInt();
-                for (Filmas filmas : filmai) {
+                for (Filmas filmas : filmai)
                     if (filmas.getId() == n) {
-                        uzsakytiFilmai += filmas.getPavadinimas() + ", ";
+                        uzsakytiFilmai.append(filmas.getPavadinimas()).append(", ");
                         suma += filmas.getKaina();
                     }
-                }
             } else if (ivedimas.hasNext("stop")) {
                 break;
             } else {
