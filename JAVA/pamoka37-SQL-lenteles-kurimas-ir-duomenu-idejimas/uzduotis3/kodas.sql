@@ -46,5 +46,5 @@ VALUES(
 
 truncate TABLE knyga;
 
-DROP TABLE knyga
+DROP TABLE knyga;
 
